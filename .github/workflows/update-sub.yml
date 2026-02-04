@@ -1,5 +1,6 @@
 name: Update VLESS Subscription
-
+permissions:
+  contents: write
 on:
   schedule:
     - cron: "0 */2 * * *"   # هر ۲ ساعت
